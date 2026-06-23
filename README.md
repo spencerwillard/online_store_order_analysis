@@ -21,12 +21,6 @@ The project follows a structured analytics workflow:
 
 ---
 
-## Project Resources
-
-- Analysis Notebook: `notebooks/online_store_analysis.ipynb`
-
----
-
 ## Business Questions
 
 This analysis aims to answer questions such as:
