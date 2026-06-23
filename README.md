@@ -1,5 +1,7 @@
 # Online Store Order Analysis
 
+An end-to-end data analytics project using Python, Pandas, and Matplotlib to analyze customer purchasing behavior, revenue performance, and operational trends.
+
 ## Project Overview
 
 This project analyzes a fictional online retail dataset to identify trends in revenue, customer behavior, product performance, return rates, and data quality issues.
@@ -16,6 +18,12 @@ The project follows a structured analytics workflow:
 8. Customer Analysis
 9. Data Visualization
 10. Executive Summary
+
+---
+
+## Project Resources
+
+- Analysis Notebook: `notebooks/online_store_analysis.ipynb`
 
 ---
 
