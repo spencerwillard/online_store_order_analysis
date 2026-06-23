@@ -63,8 +63,6 @@ Several data quality issues were identified and addressed:
 
 ### Business Performance
 
-### Business Performance
-
 - Total Orders Analyzed: **9,990**
 - Total Revenue (Outliers Removed): **$26.99M**
 - Average Order Value: **$2,728**
@@ -89,19 +87,29 @@ Several data quality issues were identified and addressed:
 ### Outlier Analysis
 
 - 10 extreme orders accounted for approximately **94% of total revenue**
-- These records materially distorted business metrics and were excluded from primary analysis
+- These records materially distorted business metrics and were excluded from primary analysis.
 
 ---
 
 ## Visualizations
 
-The project includes:
+### Revenue by Product Category
 
-- Revenue by Product Category
-- Revenue by State
-- Monthly Revenue Trend
-- Distribution of Order Values
-- Return Rate by Product Category
+This chart compares total revenue generated across product categories and highlights Electronics as the highest-performing category.
+
+![Revenue by Product Category](images/revenue_by_product_category.png)
+
+### Monthly Revenue Trend
+
+This chart shows revenue trends over time and helps identify seasonality or performance changes throughout the year.
+
+![Monthly Revenue Trend](images/orders_by_month.png)
+
+### Return Rate by Product Category
+
+This chart compares return rates across product categories and highlights operational areas that may require additional investigation.
+
+![Return Rate by Product Category](images/return_rate_by_product_category.png)
 
 ---
 
@@ -117,21 +125,22 @@ The project includes:
 
 ## Project Structure
 
-```
+```text
 project/
 │
 ├── data/
 ├── notebooks/
 │   └── online_store_analysis.ipynb
 ├── images/
+│   ├── orders_by_month.png
+│   ├── return_rate_by_product_category.png
+│   └── revenue_by_product_category.png
 ├── README.md
 ```
 
 ---
 
-## Key Takeaways
-
-This project demonstrates:
+## Skills Demonstrated
 
 - Data cleaning and validation
 - Feature engineering
