@@ -99,9 +99,9 @@ This chart compares total revenue generated across product categories and highli
 
 ![Revenue by Product Category](images/revenue_by_product_category.png)
 
-### Monthly Revenue Trend
+### Orders by Month
 
-This chart shows revenue trends over time and helps identify seasonality or performance changes throughout the year.
+This chart shows monthly order volume throughout the year and helps identify seasonal patterns in customer purchasing activity.
 
 ![Monthly Revenue Trend](images/orders_by_month.png)
 
